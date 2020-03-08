@@ -34,46 +34,14 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0651E008687F4DA78E60EB1A /* /Users/y0n1/Projects/traffic-simulation/src/Graphics.cpp */ = {isa = PBXBuildFile; fileRef = CF53CC4175874F6DABBA946B /* /Users/y0n1/Projects/traffic-simulation/src/Graphics.cpp */; };
-		1C53BD2D569B46CEADA0DC7C /* /Users/y0n1/Projects/traffic-simulation/src/Intersection.cpp */ = {isa = PBXBuildFile; fileRef = 51043D5041624E869CFB098A /* /Users/y0n1/Projects/traffic-simulation/src/Intersection.cpp */; };
-		5C8B60E44EEE4E57A25E9334 /* /Users/y0n1/Projects/traffic-simulation/src/TrafficSimulator-Final.cpp */ = {isa = PBXBuildFile; fileRef = 6B85A4A8099C48EE85BA4D3D /* /Users/y0n1/Projects/traffic-simulation/src/TrafficSimulator-Final.cpp */; };
-		934F248B948F469695731620 /* /Users/y0n1/Projects/traffic-simulation/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0964D14FEB144E938A0A2353 /* /Users/y0n1/Projects/traffic-simulation/CMakeLists.txt */; };
-		D5C3F3CF7E734C5F88160B89 /* /Users/y0n1/Projects/traffic-simulation/src/Vehicle.cpp */ = {isa = PBXBuildFile; fileRef = 48A779F9A0A54453919FE5D2 /* /Users/y0n1/Projects/traffic-simulation/src/Vehicle.cpp */; };
-		D65851D5EDA040928C0BDE31 /* /Users/y0n1/Projects/traffic-simulation/src/TrafficObject.cpp */ = {isa = PBXBuildFile; fileRef = B9B59EF880AC44C5BC2D241B /* /Users/y0n1/Projects/traffic-simulation/src/TrafficObject.cpp */; };
-		E9BB41CA587B41DD86007567 /* /Users/y0n1/Projects/traffic-simulation/src/TrafficLight.cpp */ = {isa = PBXBuildFile; fileRef = 7EDCECFD8ACF44318963BBEC /* /Users/y0n1/Projects/traffic-simulation/src/TrafficLight.cpp */; };
-		F6765281B0A94E40957D8DC7 /* /Users/y0n1/Projects/traffic-simulation/src/Street.cpp */ = {isa = PBXBuildFile; fileRef = 8A671D91D7A24EA5BA7399D6 /* /Users/y0n1/Projects/traffic-simulation/src/Street.cpp */; };
+		0651E008687F4DA78E60EB1A /* Graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF53CC4175874F6DABBA946B /* Graphics.cpp */; };
+		1C53BD2D569B46CEADA0DC7C /* Intersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51043D5041624E869CFB098A /* Intersection.cpp */; };
+		5C8B60E44EEE4E57A25E9334 /* TrafficSimulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B85A4A8099C48EE85BA4D3D /* TrafficSimulator.cpp */; };
+		D5C3F3CF7E734C5F88160B89 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48A779F9A0A54453919FE5D2 /* Vehicle.cpp */; };
+		D65851D5EDA040928C0BDE31 /* TrafficObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B59EF880AC44C5BC2D241B /* TrafficObject.cpp */; };
+		E9BB41CA587B41DD86007567 /* TrafficLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EDCECFD8ACF44318963BBEC /* TrafficLight.cpp */; };
+		F6765281B0A94E40957D8DC7 /* Street.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A671D91D7A24EA5BA7399D6 /* Street.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		1F39EF72E38E40DC9DC513D4 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		5FCA84420986497B8896207D /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		7EA4AA7083E84832891F12F7 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		B84E7009D26B42958B48C057 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		693640A4BF3B4F9A9C426854 /* PBXContainerItemProxy */ = {
@@ -100,16 +68,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0964D14FEB144E938A0A2353 /* /Users/y0n1/Projects/traffic-simulation/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		48A779F9A0A54453919FE5D2 /* /Users/y0n1/Projects/traffic-simulation/src/Vehicle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vehicle.cpp; path = src/Vehicle.cpp; sourceTree = SOURCE_ROOT; };
-		51043D5041624E869CFB098A /* /Users/y0n1/Projects/traffic-simulation/src/Intersection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Intersection.cpp; path = src/Intersection.cpp; sourceTree = SOURCE_ROOT; };
-		6B85A4A8099C48EE85BA4D3D /* /Users/y0n1/Projects/traffic-simulation/src/TrafficSimulator-Final.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "TrafficSimulator-Final.cpp"; path = "src/TrafficSimulator-Final.cpp"; sourceTree = SOURCE_ROOT; };
-		6B931C5784AA4AB8B690D841 /* /Users/y0n1/Projects/traffic-simulation/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		7EDCECFD8ACF44318963BBEC /* /Users/y0n1/Projects/traffic-simulation/src/TrafficLight.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TrafficLight.cpp; path = src/TrafficLight.cpp; sourceTree = SOURCE_ROOT; };
-		8A671D91D7A24EA5BA7399D6 /* /Users/y0n1/Projects/traffic-simulation/src/Street.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Street.cpp; path = src/Street.cpp; sourceTree = SOURCE_ROOT; };
-		B9B59EF880AC44C5BC2D241B /* /Users/y0n1/Projects/traffic-simulation/src/TrafficObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TrafficObject.cpp; path = src/TrafficObject.cpp; sourceTree = SOURCE_ROOT; };
+		48A779F9A0A54453919FE5D2 /* Vehicle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vehicle.cpp; path = src/Vehicle.cpp; sourceTree = SOURCE_ROOT; };
+		51043D5041624E869CFB098A /* Intersection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Intersection.cpp; path = src/Intersection.cpp; sourceTree = SOURCE_ROOT; };
+		6B85A4A8099C48EE85BA4D3D /* TrafficSimulator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TrafficSimulator.cpp; path = src/TrafficSimulator.cpp; sourceTree = SOURCE_ROOT; };
+		6B931C5784AA4AB8B690D841 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7EDCECFD8ACF44318963BBEC /* TrafficLight.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TrafficLight.cpp; path = src/TrafficLight.cpp; sourceTree = SOURCE_ROOT; };
+		8A671D91D7A24EA5BA7399D6 /* Street.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Street.cpp; path = src/Street.cpp; sourceTree = SOURCE_ROOT; };
+		B9B59EF880AC44C5BC2D241B /* TrafficObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TrafficObject.cpp; path = src/TrafficObject.cpp; sourceTree = SOURCE_ROOT; };
 		C449605947314137B0A52C39 /* traffic_simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = traffic_simulation; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF53CC4175874F6DABBA946B /* /Users/y0n1/Projects/traffic-simulation/src/Graphics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Graphics.cpp; path = src/Graphics.cpp; sourceTree = SOURCE_ROOT; };
+		CF53CC4175874F6DABBA946B /* Graphics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Graphics.cpp; path = src/Graphics.cpp; sourceTree = SOURCE_ROOT; };
+		E2B744392415464F00DDE709 /* paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = paris.jpg; path = data/paris.jpg; sourceTree = "<group>"; };
+		E2B7443A2415464F00DDE709 /* nyc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nyc.jpg; path = data/nyc.jpg; sourceTree = "<group>"; };
+		E2B7443B2415465E00DDE709 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E2B7443D2415469C00DDE709 /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZERO_CHECK_cmakeRulesBuildPhase.makeRelease; path = CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeRelease; sourceTree = "<group>"; };
+		E2B7443E2415469D00DDE709 /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo; path = CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		E2B7443F2415469D00DDE709 /* ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel; path = CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		E2B744402415469D00DDE709 /* XCODE_DEPEND_HELPER.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = XCODE_DEPEND_HELPER.make; path = CMakeScripts/XCODE_DEPEND_HELPER.make; sourceTree = "<group>"; };
+		E2B744412415469D00DDE709 /* ZERO_CHECK_cmakeRulesBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZERO_CHECK_cmakeRulesBuildPhase.makeDebug; path = CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeDebug; sourceTree = "<group>"; };
+		E2B74442241546AB00DDE709 /* ALL_BUILD_cmakeRulesBuildPhase.makeDebug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ALL_BUILD_cmakeRulesBuildPhase.makeDebug; path = CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeDebug; sourceTree = "<group>"; };
+		E2B74443241546AB00DDE709 /* ALL_BUILD_cmakeRulesBuildPhase.makeRelease */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ALL_BUILD_cmakeRulesBuildPhase.makeRelease; path = CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeRelease; sourceTree = "<group>"; };
+		E2B74444241546AB00DDE709 /* ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel; path = CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel; sourceTree = "<group>"; };
+		E2B74445241546AB00DDE709 /* ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo; path = CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo; sourceTree = "<group>"; };
+		E2B74446241546D900DDE709 /* ReRunCMake.make */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = ReRunCMake.make; path = CMakeScripts/ReRunCMake.make; sourceTree = "<group>"; };
+		E2B744472415471D00DDE709 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = src/Vehicle.h; sourceTree = "<group>"; };
+		E2B744482415471D00DDE709 /* Street.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Street.h; path = src/Street.h; sourceTree = "<group>"; };
+		E2B744492415471D00DDE709 /* TrafficObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TrafficObject.h; path = src/TrafficObject.h; sourceTree = "<group>"; };
+		E2B7444A2415471D00DDE709 /* Graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Graphics.h; path = src/Graphics.h; sourceTree = "<group>"; };
+		E2B7444B2415471D00DDE709 /* TrafficLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TrafficLight.h; path = src/TrafficLight.h; sourceTree = "<group>"; };
+		E2B7444C2415471D00DDE709 /* Intersection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Intersection.h; path = src/Intersection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -124,6 +110,10 @@
 		3F30BDF9133F45D799FC1688 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
+				E2B74446241546D900DDE709 /* ReRunCMake.make */,
+				E2B744402415469D00DDE709 /* XCODE_DEPEND_HELPER.make */,
+				E2B7443C2415468400DDE709 /* ZERO_CHECK */,
+				4CA15F1FBB2F4C2BA327D3AE /* ALL_BUILD */,
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
@@ -131,31 +121,37 @@
 		4CA15F1FBB2F4C2BA327D3AE /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				3F30BDF9133F45D799FC1688 /* CMake Rules */,
-				6B931C5784AA4AB8B690D841 /* /Users/y0n1/Projects/traffic-simulation/CMakeLists.txt */,
+				E2B74442241546AB00DDE709 /* ALL_BUILD_cmakeRulesBuildPhase.makeDebug */,
+				E2B74444241546AB00DDE709 /* ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel */,
+				E2B74443241546AB00DDE709 /* ALL_BUILD_cmakeRulesBuildPhase.makeRelease */,
+				E2B74445241546AB00DDE709 /* ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		B2CDB8E386CE4F76AB340B71 /* traffic_simulation */ = {
+		B2CDB8E386CE4F76AB340B71 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				D4E72AE3E781479689DB3FDB /* Source Files */,
-				0964D14FEB144E938A0A2353 /* /Users/y0n1/Projects/traffic-simulation/CMakeLists.txt */,
+				E2B7444A2415471D00DDE709 /* Graphics.h */,
+				E2B7444C2415471D00DDE709 /* Intersection.h */,
+				E2B744482415471D00DDE709 /* Street.h */,
+				E2B7444B2415471D00DDE709 /* TrafficLight.h */,
+				E2B744492415471D00DDE709 /* TrafficObject.h */,
+				E2B744472415471D00DDE709 /* Vehicle.h */,
 			);
-			name = traffic_simulation;
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
 		D4E72AE3E781479689DB3FDB /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF53CC4175874F6DABBA946B /* /Users/y0n1/Projects/traffic-simulation/src/Graphics.cpp */,
-				51043D5041624E869CFB098A /* /Users/y0n1/Projects/traffic-simulation/src/Intersection.cpp */,
-				8A671D91D7A24EA5BA7399D6 /* /Users/y0n1/Projects/traffic-simulation/src/Street.cpp */,
-				7EDCECFD8ACF44318963BBEC /* /Users/y0n1/Projects/traffic-simulation/src/TrafficLight.cpp */,
-				B9B59EF880AC44C5BC2D241B /* /Users/y0n1/Projects/traffic-simulation/src/TrafficObject.cpp */,
-				6B85A4A8099C48EE85BA4D3D /* /Users/y0n1/Projects/traffic-simulation/src/TrafficSimulator-Final.cpp */,
-				48A779F9A0A54453919FE5D2 /* /Users/y0n1/Projects/traffic-simulation/src/Vehicle.cpp */,
+				CF53CC4175874F6DABBA946B /* Graphics.cpp */,
+				51043D5041624E869CFB098A /* Intersection.cpp */,
+				8A671D91D7A24EA5BA7399D6 /* Street.cpp */,
+				7EDCECFD8ACF44318963BBEC /* TrafficLight.cpp */,
+				B9B59EF880AC44C5BC2D241B /* TrafficObject.cpp */,
+				6B85A4A8099C48EE85BA4D3D /* TrafficSimulator.cpp */,
+				48A779F9A0A54453919FE5D2 /* Vehicle.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -163,10 +159,34 @@
 		DA806BA8DC1E4662911C030F = {
 			isa = PBXGroup;
 			children = (
-				B2CDB8E386CE4F76AB340B71 /* traffic_simulation */,
-				4CA15F1FBB2F4C2BA327D3AE /* ALL_BUILD */,
+				6B931C5784AA4AB8B690D841 /* CMakeLists.txt */,
+				E2B7443B2415465E00DDE709 /* README.md */,
+				3F30BDF9133F45D799FC1688 /* CMake Rules */,
+				E2B744382415463700DDE709 /* Resource Files */,
+				B2CDB8E386CE4F76AB340B71 /* Header Files */,
+				D4E72AE3E781479689DB3FDB /* Source Files */,
 				085DB391036A414DB43EB124 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		E2B744382415463700DDE709 /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2B7443A2415464F00DDE709 /* nyc.jpg */,
+				E2B744392415464F00DDE709 /* paris.jpg */,
+			);
+			name = "Resource Files";
+			sourceTree = "<group>";
+		};
+		E2B7443C2415468400DDE709 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				E2B744412415469D00DDE709 /* ZERO_CHECK_cmakeRulesBuildPhase.makeDebug */,
+				E2B7443F2415469D00DDE709 /* ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel */,
+				E2B7443D2415469C00DDE709 /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelease */,
+				E2B7443E2415469D00DDE709 /* ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo */,
+			);
+			name = ZERO_CHECK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,18 +218,15 @@
 				LastUpgradeCheck = 1130;
 			};
 			buildConfigurationList = 8289A87566364067A75992D7 /* Build configuration list for PBXProject "traffic-simulation" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				1F39EF72E38E40DC9DC513D4 /* Debug */,
-				7EA4AA7083E84832891F12F7 /* Release */,
-				5FCA84420986497B8896207D /* MinSizeRel */,
-				B84E7009D26B42958B48C057 /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = DA806BA8DC1E4662911C030F;
-			projectDirPath = .;
+			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D24FF7D3534E495CBEEEE663 /* ALL_BUILD */,
@@ -231,21 +248,6 @@
 			shellScript = "make -C /Users/y0n1/Projects/traffic-simulation -f /Users/y0n1/Projects/traffic-simulation/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		4BA001CF15C34C5187377FBC = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		8D16E228CF6E4F37A77E9099 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,21 +259,6 @@ exit 0";
 			shellScript = "make -C /Users/y0n1/Projects/traffic-simulation -f /Users/y0n1/Projects/traffic-simulation/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		FE43552A8DB542CAB7E56817 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -279,13 +266,13 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0651E008687F4DA78E60EB1A /* /Users/y0n1/Projects/traffic-simulation/src/Graphics.cpp */,
-				1C53BD2D569B46CEADA0DC7C /* /Users/y0n1/Projects/traffic-simulation/src/Intersection.cpp */,
-				F6765281B0A94E40957D8DC7 /* /Users/y0n1/Projects/traffic-simulation/src/Street.cpp */,
-				E9BB41CA587B41DD86007567 /* /Users/y0n1/Projects/traffic-simulation/src/TrafficLight.cpp */,
-				D65851D5EDA040928C0BDE31 /* /Users/y0n1/Projects/traffic-simulation/src/TrafficObject.cpp */,
-				5C8B60E44EEE4E57A25E9334 /* /Users/y0n1/Projects/traffic-simulation/src/TrafficSimulator-Final.cpp */,
-				D5C3F3CF7E734C5F88160B89 /* /Users/y0n1/Projects/traffic-simulation/src/Vehicle.cpp */,
+				0651E008687F4DA78E60EB1A /* Graphics.cpp in Sources */,
+				1C53BD2D569B46CEADA0DC7C /* Intersection.cpp in Sources */,
+				F6765281B0A94E40957D8DC7 /* Street.cpp in Sources */,
+				E9BB41CA587B41DD86007567 /* TrafficLight.cpp in Sources */,
+				D65851D5EDA040928C0BDE31 /* TrafficObject.cpp in Sources */,
+				5C8B60E44EEE4E57A25E9334 /* TrafficSimulator.cpp in Sources */,
+				D5C3F3CF7E734C5F88160B89 /* Vehicle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +304,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -326,7 +313,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -339,20 +331,81 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17 -pthread        -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.2.0.dylib /usr/local/lib/libopencv_stitching.4.2.0.dylib /usr/local/lib/libopencv_aruco.4.2.0.dylib /usr/local/lib/libopencv_bgsegm.4.2.0.dylib /usr/local/lib/libopencv_bioinspired.4.2.0.dylib /usr/local/lib/libopencv_ccalib.4.2.0.dylib /usr/local/lib/libopencv_dnn_objdetect.4.2.0.dylib /usr/local/lib/libopencv_dnn_superres.4.2.0.dylib /usr/local/lib/libopencv_dpm.4.2.0.dylib /usr/local/lib/libopencv_face.4.2.0.dylib /usr/local/lib/libopencv_freetype.4.2.0.dylib /usr/local/lib/libopencv_fuzzy.4.2.0.dylib /usr/local/lib/libopencv_hfs.4.2.0.dylib /usr/local/lib/libopencv_img_hash.4.2.0.dylib /usr/local/lib/libopencv_line_descriptor.4.2.0.dylib /usr/local/lib/libopencv_quality.4.2.0.dylib /usr/local/lib/libopencv_reg.4.2.0.dylib /usr/local/lib/libopencv_rgbd.4.2.0.dylib /usr/local/lib/libopencv_saliency.4.2.0.dylib /usr/local/lib/libopencv_sfm.4.2.0.dylib /usr/local/lib/libopencv_stereo.4.2.0.dylib /usr/local/lib/libopencv_structured_light.4.2.0.dylib /usr/local/lib/libopencv_superres.4.2.0.dylib /usr/local/lib/libopencv_surface_matching.4.2.0.dylib /usr/local/lib/libopencv_tracking.4.2.0.dylib /usr/local/lib/libopencv_videostab.4.2.0.dylib /usr/local/lib/libopencv_xfeatures2d.4.2.0.dylib /usr/local/lib/libopencv_xobjdetect.4.2.0.dylib /usr/local/lib/libopencv_xphoto.4.2.0.dylib /usr/local/lib/libopencv_highgui.4.2.0.dylib /usr/local/lib/libopencv_shape.4.2.0.dylib /usr/local/lib/libopencv_datasets.4.2.0.dylib /usr/local/lib/libopencv_plot.4.2.0.dylib /usr/local/lib/libopencv_text.4.2.0.dylib /usr/local/lib/libopencv_dnn.4.2.0.dylib /usr/local/lib/libopencv_ml.4.2.0.dylib /usr/local/lib/libopencv_phase_unwrapping.4.2.0.dylib /usr/local/lib/libopencv_optflow.4.2.0.dylib /usr/local/lib/libopencv_ximgproc.4.2.0.dylib /usr/local/lib/libopencv_video.4.2.0.dylib /usr/local/lib/libopencv_videoio.4.2.0.dylib /usr/local/lib/libopencv_imgcodecs.4.2.0.dylib /usr/local/lib/libopencv_objdetect.4.2.0.dylib /usr/local/lib/libopencv_calib3d.4.2.0.dylib /usr/local/lib/libopencv_features2d.4.2.0.dylib /usr/local/lib/libopencv_flann.4.2.0.dylib /usr/local/lib/libopencv_photo.4.2.0.dylib /usr/local/lib/libopencv_imgproc.4.2.0.dylib /usr/local/lib/libopencv_core.4.2.0.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++17",
+					"-pthread",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libopencv_gapi.4.2.0.dylib,
+					/usr/local/lib/libopencv_stitching.4.2.0.dylib,
+					/usr/local/lib/libopencv_aruco.4.2.0.dylib,
+					/usr/local/lib/libopencv_bgsegm.4.2.0.dylib,
+					/usr/local/lib/libopencv_bioinspired.4.2.0.dylib,
+					/usr/local/lib/libopencv_ccalib.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn_objdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn_superres.4.2.0.dylib,
+					/usr/local/lib/libopencv_dpm.4.2.0.dylib,
+					/usr/local/lib/libopencv_face.4.2.0.dylib,
+					/usr/local/lib/libopencv_freetype.4.2.0.dylib,
+					/usr/local/lib/libopencv_fuzzy.4.2.0.dylib,
+					/usr/local/lib/libopencv_hfs.4.2.0.dylib,
+					/usr/local/lib/libopencv_img_hash.4.2.0.dylib,
+					/usr/local/lib/libopencv_line_descriptor.4.2.0.dylib,
+					/usr/local/lib/libopencv_quality.4.2.0.dylib,
+					/usr/local/lib/libopencv_reg.4.2.0.dylib,
+					/usr/local/lib/libopencv_rgbd.4.2.0.dylib,
+					/usr/local/lib/libopencv_saliency.4.2.0.dylib,
+					/usr/local/lib/libopencv_sfm.4.2.0.dylib,
+					/usr/local/lib/libopencv_stereo.4.2.0.dylib,
+					/usr/local/lib/libopencv_structured_light.4.2.0.dylib,
+					/usr/local/lib/libopencv_superres.4.2.0.dylib,
+					/usr/local/lib/libopencv_surface_matching.4.2.0.dylib,
+					/usr/local/lib/libopencv_tracking.4.2.0.dylib,
+					/usr/local/lib/libopencv_videostab.4.2.0.dylib,
+					/usr/local/lib/libopencv_xfeatures2d.4.2.0.dylib,
+					/usr/local/lib/libopencv_xobjdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_xphoto.4.2.0.dylib,
+					/usr/local/lib/libopencv_highgui.4.2.0.dylib,
+					/usr/local/lib/libopencv_shape.4.2.0.dylib,
+					/usr/local/lib/libopencv_datasets.4.2.0.dylib,
+					/usr/local/lib/libopencv_plot.4.2.0.dylib,
+					/usr/local/lib/libopencv_text.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn.4.2.0.dylib,
+					/usr/local/lib/libopencv_ml.4.2.0.dylib,
+					/usr/local/lib/libopencv_phase_unwrapping.4.2.0.dylib,
+					/usr/local/lib/libopencv_optflow.4.2.0.dylib,
+					/usr/local/lib/libopencv_ximgproc.4.2.0.dylib,
+					/usr/local/lib/libopencv_video.4.2.0.dylib,
+					/usr/local/lib/libopencv_videoio.4.2.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.4.2.0.dylib,
+					/usr/local/lib/libopencv_objdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_calib3d.4.2.0.dylib,
+					/usr/local/lib/libopencv_features2d.4.2.0.dylib,
+					/usr/local/lib/libopencv_flann.4.2.0.dylib,
+					/usr/local/lib/libopencv_photo.4.2.0.dylib,
+					/usr/local/lib/libopencv_imgproc.4.2.0.dylib,
+					/usr/local/lib/libopencv_core.4.2.0.dylib,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = traffic_simulation;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.2.0_1/include/opencv4);
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv/4.2.0_1/include/opencv4;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -363,7 +416,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -372,7 +425,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -385,20 +443,81 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17 -pthread     -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.2.0.dylib /usr/local/lib/libopencv_stitching.4.2.0.dylib /usr/local/lib/libopencv_aruco.4.2.0.dylib /usr/local/lib/libopencv_bgsegm.4.2.0.dylib /usr/local/lib/libopencv_bioinspired.4.2.0.dylib /usr/local/lib/libopencv_ccalib.4.2.0.dylib /usr/local/lib/libopencv_dnn_objdetect.4.2.0.dylib /usr/local/lib/libopencv_dnn_superres.4.2.0.dylib /usr/local/lib/libopencv_dpm.4.2.0.dylib /usr/local/lib/libopencv_face.4.2.0.dylib /usr/local/lib/libopencv_freetype.4.2.0.dylib /usr/local/lib/libopencv_fuzzy.4.2.0.dylib /usr/local/lib/libopencv_hfs.4.2.0.dylib /usr/local/lib/libopencv_img_hash.4.2.0.dylib /usr/local/lib/libopencv_line_descriptor.4.2.0.dylib /usr/local/lib/libopencv_quality.4.2.0.dylib /usr/local/lib/libopencv_reg.4.2.0.dylib /usr/local/lib/libopencv_rgbd.4.2.0.dylib /usr/local/lib/libopencv_saliency.4.2.0.dylib /usr/local/lib/libopencv_sfm.4.2.0.dylib /usr/local/lib/libopencv_stereo.4.2.0.dylib /usr/local/lib/libopencv_structured_light.4.2.0.dylib /usr/local/lib/libopencv_superres.4.2.0.dylib /usr/local/lib/libopencv_surface_matching.4.2.0.dylib /usr/local/lib/libopencv_tracking.4.2.0.dylib /usr/local/lib/libopencv_videostab.4.2.0.dylib /usr/local/lib/libopencv_xfeatures2d.4.2.0.dylib /usr/local/lib/libopencv_xobjdetect.4.2.0.dylib /usr/local/lib/libopencv_xphoto.4.2.0.dylib /usr/local/lib/libopencv_highgui.4.2.0.dylib /usr/local/lib/libopencv_shape.4.2.0.dylib /usr/local/lib/libopencv_datasets.4.2.0.dylib /usr/local/lib/libopencv_plot.4.2.0.dylib /usr/local/lib/libopencv_text.4.2.0.dylib /usr/local/lib/libopencv_dnn.4.2.0.dylib /usr/local/lib/libopencv_ml.4.2.0.dylib /usr/local/lib/libopencv_phase_unwrapping.4.2.0.dylib /usr/local/lib/libopencv_optflow.4.2.0.dylib /usr/local/lib/libopencv_ximgproc.4.2.0.dylib /usr/local/lib/libopencv_video.4.2.0.dylib /usr/local/lib/libopencv_videoio.4.2.0.dylib /usr/local/lib/libopencv_imgcodecs.4.2.0.dylib /usr/local/lib/libopencv_objdetect.4.2.0.dylib /usr/local/lib/libopencv_calib3d.4.2.0.dylib /usr/local/lib/libopencv_features2d.4.2.0.dylib /usr/local/lib/libopencv_flann.4.2.0.dylib /usr/local/lib/libopencv_photo.4.2.0.dylib /usr/local/lib/libopencv_imgproc.4.2.0.dylib /usr/local/lib/libopencv_core.4.2.0.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++17",
+					"-pthread",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libopencv_gapi.4.2.0.dylib,
+					/usr/local/lib/libopencv_stitching.4.2.0.dylib,
+					/usr/local/lib/libopencv_aruco.4.2.0.dylib,
+					/usr/local/lib/libopencv_bgsegm.4.2.0.dylib,
+					/usr/local/lib/libopencv_bioinspired.4.2.0.dylib,
+					/usr/local/lib/libopencv_ccalib.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn_objdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn_superres.4.2.0.dylib,
+					/usr/local/lib/libopencv_dpm.4.2.0.dylib,
+					/usr/local/lib/libopencv_face.4.2.0.dylib,
+					/usr/local/lib/libopencv_freetype.4.2.0.dylib,
+					/usr/local/lib/libopencv_fuzzy.4.2.0.dylib,
+					/usr/local/lib/libopencv_hfs.4.2.0.dylib,
+					/usr/local/lib/libopencv_img_hash.4.2.0.dylib,
+					/usr/local/lib/libopencv_line_descriptor.4.2.0.dylib,
+					/usr/local/lib/libopencv_quality.4.2.0.dylib,
+					/usr/local/lib/libopencv_reg.4.2.0.dylib,
+					/usr/local/lib/libopencv_rgbd.4.2.0.dylib,
+					/usr/local/lib/libopencv_saliency.4.2.0.dylib,
+					/usr/local/lib/libopencv_sfm.4.2.0.dylib,
+					/usr/local/lib/libopencv_stereo.4.2.0.dylib,
+					/usr/local/lib/libopencv_structured_light.4.2.0.dylib,
+					/usr/local/lib/libopencv_superres.4.2.0.dylib,
+					/usr/local/lib/libopencv_surface_matching.4.2.0.dylib,
+					/usr/local/lib/libopencv_tracking.4.2.0.dylib,
+					/usr/local/lib/libopencv_videostab.4.2.0.dylib,
+					/usr/local/lib/libopencv_xfeatures2d.4.2.0.dylib,
+					/usr/local/lib/libopencv_xobjdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_xphoto.4.2.0.dylib,
+					/usr/local/lib/libopencv_highgui.4.2.0.dylib,
+					/usr/local/lib/libopencv_shape.4.2.0.dylib,
+					/usr/local/lib/libopencv_datasets.4.2.0.dylib,
+					/usr/local/lib/libopencv_plot.4.2.0.dylib,
+					/usr/local/lib/libopencv_text.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn.4.2.0.dylib,
+					/usr/local/lib/libopencv_ml.4.2.0.dylib,
+					/usr/local/lib/libopencv_phase_unwrapping.4.2.0.dylib,
+					/usr/local/lib/libopencv_optflow.4.2.0.dylib,
+					/usr/local/lib/libopencv_ximgproc.4.2.0.dylib,
+					/usr/local/lib/libopencv_video.4.2.0.dylib,
+					/usr/local/lib/libopencv_videoio.4.2.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.4.2.0.dylib,
+					/usr/local/lib/libopencv_objdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_calib3d.4.2.0.dylib,
+					/usr/local/lib/libopencv_features2d.4.2.0.dylib,
+					/usr/local/lib/libopencv_flann.4.2.0.dylib,
+					/usr/local/lib/libopencv_photo.4.2.0.dylib,
+					/usr/local/lib/libopencv_imgproc.4.2.0.dylib,
+					/usr/local/lib/libopencv_core.4.2.0.dylib,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = traffic_simulation;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.2.0_1/include/opencv4);
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv/4.2.0_1/include/opencv4;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -409,7 +528,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -418,7 +537,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -429,7 +553,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -438,7 +562,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -451,20 +580,80 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17 -pthread     ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.2.0.dylib /usr/local/lib/libopencv_stitching.4.2.0.dylib /usr/local/lib/libopencv_aruco.4.2.0.dylib /usr/local/lib/libopencv_bgsegm.4.2.0.dylib /usr/local/lib/libopencv_bioinspired.4.2.0.dylib /usr/local/lib/libopencv_ccalib.4.2.0.dylib /usr/local/lib/libopencv_dnn_objdetect.4.2.0.dylib /usr/local/lib/libopencv_dnn_superres.4.2.0.dylib /usr/local/lib/libopencv_dpm.4.2.0.dylib /usr/local/lib/libopencv_face.4.2.0.dylib /usr/local/lib/libopencv_freetype.4.2.0.dylib /usr/local/lib/libopencv_fuzzy.4.2.0.dylib /usr/local/lib/libopencv_hfs.4.2.0.dylib /usr/local/lib/libopencv_img_hash.4.2.0.dylib /usr/local/lib/libopencv_line_descriptor.4.2.0.dylib /usr/local/lib/libopencv_quality.4.2.0.dylib /usr/local/lib/libopencv_reg.4.2.0.dylib /usr/local/lib/libopencv_rgbd.4.2.0.dylib /usr/local/lib/libopencv_saliency.4.2.0.dylib /usr/local/lib/libopencv_sfm.4.2.0.dylib /usr/local/lib/libopencv_stereo.4.2.0.dylib /usr/local/lib/libopencv_structured_light.4.2.0.dylib /usr/local/lib/libopencv_superres.4.2.0.dylib /usr/local/lib/libopencv_surface_matching.4.2.0.dylib /usr/local/lib/libopencv_tracking.4.2.0.dylib /usr/local/lib/libopencv_videostab.4.2.0.dylib /usr/local/lib/libopencv_xfeatures2d.4.2.0.dylib /usr/local/lib/libopencv_xobjdetect.4.2.0.dylib /usr/local/lib/libopencv_xphoto.4.2.0.dylib /usr/local/lib/libopencv_highgui.4.2.0.dylib /usr/local/lib/libopencv_shape.4.2.0.dylib /usr/local/lib/libopencv_datasets.4.2.0.dylib /usr/local/lib/libopencv_plot.4.2.0.dylib /usr/local/lib/libopencv_text.4.2.0.dylib /usr/local/lib/libopencv_dnn.4.2.0.dylib /usr/local/lib/libopencv_ml.4.2.0.dylib /usr/local/lib/libopencv_phase_unwrapping.4.2.0.dylib /usr/local/lib/libopencv_optflow.4.2.0.dylib /usr/local/lib/libopencv_ximgproc.4.2.0.dylib /usr/local/lib/libopencv_video.4.2.0.dylib /usr/local/lib/libopencv_videoio.4.2.0.dylib /usr/local/lib/libopencv_imgcodecs.4.2.0.dylib /usr/local/lib/libopencv_objdetect.4.2.0.dylib /usr/local/lib/libopencv_calib3d.4.2.0.dylib /usr/local/lib/libopencv_features2d.4.2.0.dylib /usr/local/lib/libopencv_flann.4.2.0.dylib /usr/local/lib/libopencv_photo.4.2.0.dylib /usr/local/lib/libopencv_imgproc.4.2.0.dylib /usr/local/lib/libopencv_core.4.2.0.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++17",
+					"-pthread",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libopencv_gapi.4.2.0.dylib,
+					/usr/local/lib/libopencv_stitching.4.2.0.dylib,
+					/usr/local/lib/libopencv_aruco.4.2.0.dylib,
+					/usr/local/lib/libopencv_bgsegm.4.2.0.dylib,
+					/usr/local/lib/libopencv_bioinspired.4.2.0.dylib,
+					/usr/local/lib/libopencv_ccalib.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn_objdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn_superres.4.2.0.dylib,
+					/usr/local/lib/libopencv_dpm.4.2.0.dylib,
+					/usr/local/lib/libopencv_face.4.2.0.dylib,
+					/usr/local/lib/libopencv_freetype.4.2.0.dylib,
+					/usr/local/lib/libopencv_fuzzy.4.2.0.dylib,
+					/usr/local/lib/libopencv_hfs.4.2.0.dylib,
+					/usr/local/lib/libopencv_img_hash.4.2.0.dylib,
+					/usr/local/lib/libopencv_line_descriptor.4.2.0.dylib,
+					/usr/local/lib/libopencv_quality.4.2.0.dylib,
+					/usr/local/lib/libopencv_reg.4.2.0.dylib,
+					/usr/local/lib/libopencv_rgbd.4.2.0.dylib,
+					/usr/local/lib/libopencv_saliency.4.2.0.dylib,
+					/usr/local/lib/libopencv_sfm.4.2.0.dylib,
+					/usr/local/lib/libopencv_stereo.4.2.0.dylib,
+					/usr/local/lib/libopencv_structured_light.4.2.0.dylib,
+					/usr/local/lib/libopencv_superres.4.2.0.dylib,
+					/usr/local/lib/libopencv_surface_matching.4.2.0.dylib,
+					/usr/local/lib/libopencv_tracking.4.2.0.dylib,
+					/usr/local/lib/libopencv_videostab.4.2.0.dylib,
+					/usr/local/lib/libopencv_xfeatures2d.4.2.0.dylib,
+					/usr/local/lib/libopencv_xobjdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_xphoto.4.2.0.dylib,
+					/usr/local/lib/libopencv_highgui.4.2.0.dylib,
+					/usr/local/lib/libopencv_shape.4.2.0.dylib,
+					/usr/local/lib/libopencv_datasets.4.2.0.dylib,
+					/usr/local/lib/libopencv_plot.4.2.0.dylib,
+					/usr/local/lib/libopencv_text.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn.4.2.0.dylib,
+					/usr/local/lib/libopencv_ml.4.2.0.dylib,
+					/usr/local/lib/libopencv_phase_unwrapping.4.2.0.dylib,
+					/usr/local/lib/libopencv_optflow.4.2.0.dylib,
+					/usr/local/lib/libopencv_ximgproc.4.2.0.dylib,
+					/usr/local/lib/libopencv_video.4.2.0.dylib,
+					/usr/local/lib/libopencv_videoio.4.2.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.4.2.0.dylib,
+					/usr/local/lib/libopencv_objdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_calib3d.4.2.0.dylib,
+					/usr/local/lib/libopencv_features2d.4.2.0.dylib,
+					/usr/local/lib/libopencv_flann.4.2.0.dylib,
+					/usr/local/lib/libopencv_photo.4.2.0.dylib,
+					/usr/local/lib/libopencv_imgproc.4.2.0.dylib,
+					/usr/local/lib/libopencv_core.4.2.0.dylib,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = traffic_simulation;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.2.0_1/include/opencv4);
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv/4.2.0_1/include/opencv4;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -475,7 +664,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -484,7 +673,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -522,7 +716,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -531,7 +725,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -551,7 +750,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -560,7 +759,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -573,20 +777,81 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17 -pthread     -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.2.0.dylib /usr/local/lib/libopencv_stitching.4.2.0.dylib /usr/local/lib/libopencv_aruco.4.2.0.dylib /usr/local/lib/libopencv_bgsegm.4.2.0.dylib /usr/local/lib/libopencv_bioinspired.4.2.0.dylib /usr/local/lib/libopencv_ccalib.4.2.0.dylib /usr/local/lib/libopencv_dnn_objdetect.4.2.0.dylib /usr/local/lib/libopencv_dnn_superres.4.2.0.dylib /usr/local/lib/libopencv_dpm.4.2.0.dylib /usr/local/lib/libopencv_face.4.2.0.dylib /usr/local/lib/libopencv_freetype.4.2.0.dylib /usr/local/lib/libopencv_fuzzy.4.2.0.dylib /usr/local/lib/libopencv_hfs.4.2.0.dylib /usr/local/lib/libopencv_img_hash.4.2.0.dylib /usr/local/lib/libopencv_line_descriptor.4.2.0.dylib /usr/local/lib/libopencv_quality.4.2.0.dylib /usr/local/lib/libopencv_reg.4.2.0.dylib /usr/local/lib/libopencv_rgbd.4.2.0.dylib /usr/local/lib/libopencv_saliency.4.2.0.dylib /usr/local/lib/libopencv_sfm.4.2.0.dylib /usr/local/lib/libopencv_stereo.4.2.0.dylib /usr/local/lib/libopencv_structured_light.4.2.0.dylib /usr/local/lib/libopencv_superres.4.2.0.dylib /usr/local/lib/libopencv_surface_matching.4.2.0.dylib /usr/local/lib/libopencv_tracking.4.2.0.dylib /usr/local/lib/libopencv_videostab.4.2.0.dylib /usr/local/lib/libopencv_xfeatures2d.4.2.0.dylib /usr/local/lib/libopencv_xobjdetect.4.2.0.dylib /usr/local/lib/libopencv_xphoto.4.2.0.dylib /usr/local/lib/libopencv_highgui.4.2.0.dylib /usr/local/lib/libopencv_shape.4.2.0.dylib /usr/local/lib/libopencv_datasets.4.2.0.dylib /usr/local/lib/libopencv_plot.4.2.0.dylib /usr/local/lib/libopencv_text.4.2.0.dylib /usr/local/lib/libopencv_dnn.4.2.0.dylib /usr/local/lib/libopencv_ml.4.2.0.dylib /usr/local/lib/libopencv_phase_unwrapping.4.2.0.dylib /usr/local/lib/libopencv_optflow.4.2.0.dylib /usr/local/lib/libopencv_ximgproc.4.2.0.dylib /usr/local/lib/libopencv_video.4.2.0.dylib /usr/local/lib/libopencv_videoio.4.2.0.dylib /usr/local/lib/libopencv_imgcodecs.4.2.0.dylib /usr/local/lib/libopencv_objdetect.4.2.0.dylib /usr/local/lib/libopencv_calib3d.4.2.0.dylib /usr/local/lib/libopencv_features2d.4.2.0.dylib /usr/local/lib/libopencv_flann.4.2.0.dylib /usr/local/lib/libopencv_photo.4.2.0.dylib /usr/local/lib/libopencv_imgproc.4.2.0.dylib /usr/local/lib/libopencv_core.4.2.0.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++17",
+					"-pthread",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libopencv_gapi.4.2.0.dylib,
+					/usr/local/lib/libopencv_stitching.4.2.0.dylib,
+					/usr/local/lib/libopencv_aruco.4.2.0.dylib,
+					/usr/local/lib/libopencv_bgsegm.4.2.0.dylib,
+					/usr/local/lib/libopencv_bioinspired.4.2.0.dylib,
+					/usr/local/lib/libopencv_ccalib.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn_objdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn_superres.4.2.0.dylib,
+					/usr/local/lib/libopencv_dpm.4.2.0.dylib,
+					/usr/local/lib/libopencv_face.4.2.0.dylib,
+					/usr/local/lib/libopencv_freetype.4.2.0.dylib,
+					/usr/local/lib/libopencv_fuzzy.4.2.0.dylib,
+					/usr/local/lib/libopencv_hfs.4.2.0.dylib,
+					/usr/local/lib/libopencv_img_hash.4.2.0.dylib,
+					/usr/local/lib/libopencv_line_descriptor.4.2.0.dylib,
+					/usr/local/lib/libopencv_quality.4.2.0.dylib,
+					/usr/local/lib/libopencv_reg.4.2.0.dylib,
+					/usr/local/lib/libopencv_rgbd.4.2.0.dylib,
+					/usr/local/lib/libopencv_saliency.4.2.0.dylib,
+					/usr/local/lib/libopencv_sfm.4.2.0.dylib,
+					/usr/local/lib/libopencv_stereo.4.2.0.dylib,
+					/usr/local/lib/libopencv_structured_light.4.2.0.dylib,
+					/usr/local/lib/libopencv_superres.4.2.0.dylib,
+					/usr/local/lib/libopencv_surface_matching.4.2.0.dylib,
+					/usr/local/lib/libopencv_tracking.4.2.0.dylib,
+					/usr/local/lib/libopencv_videostab.4.2.0.dylib,
+					/usr/local/lib/libopencv_xfeatures2d.4.2.0.dylib,
+					/usr/local/lib/libopencv_xobjdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_xphoto.4.2.0.dylib,
+					/usr/local/lib/libopencv_highgui.4.2.0.dylib,
+					/usr/local/lib/libopencv_shape.4.2.0.dylib,
+					/usr/local/lib/libopencv_datasets.4.2.0.dylib,
+					/usr/local/lib/libopencv_plot.4.2.0.dylib,
+					/usr/local/lib/libopencv_text.4.2.0.dylib,
+					/usr/local/lib/libopencv_dnn.4.2.0.dylib,
+					/usr/local/lib/libopencv_ml.4.2.0.dylib,
+					/usr/local/lib/libopencv_phase_unwrapping.4.2.0.dylib,
+					/usr/local/lib/libopencv_optflow.4.2.0.dylib,
+					/usr/local/lib/libopencv_ximgproc.4.2.0.dylib,
+					/usr/local/lib/libopencv_video.4.2.0.dylib,
+					/usr/local/lib/libopencv_videoio.4.2.0.dylib,
+					/usr/local/lib/libopencv_imgcodecs.4.2.0.dylib,
+					/usr/local/lib/libopencv_objdetect.4.2.0.dylib,
+					/usr/local/lib/libopencv_calib3d.4.2.0.dylib,
+					/usr/local/lib/libopencv_features2d.4.2.0.dylib,
+					/usr/local/lib/libopencv_flann.4.2.0.dylib,
+					/usr/local/lib/libopencv_photo.4.2.0.dylib,
+					/usr/local/lib/libopencv_imgproc.4.2.0.dylib,
+					/usr/local/lib/libopencv_core.4.2.0.dylib,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = traffic_simulation;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.2.0_1/include/opencv4);
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv/4.2.0_1/include/opencv4;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -597,7 +862,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -606,7 +871,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/y0n1/Projects/traffic-simulation";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
