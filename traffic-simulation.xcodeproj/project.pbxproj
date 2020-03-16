@@ -36,9 +36,9 @@
 /* Begin PBXBuildFile section */
 		0651E008687F4DA78E60EB1A /* Graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF53CC4175874F6DABBA946B /* Graphics.cpp */; };
 		1C53BD2D569B46CEADA0DC7C /* Intersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51043D5041624E869CFB098A /* Intersection.cpp */; };
-		5C8B60E44EEE4E57A25E9334 /* TrafficSimulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B85A4A8099C48EE85BA4D3D /* TrafficSimulator.cpp */; };
 		D5C3F3CF7E734C5F88160B89 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48A779F9A0A54453919FE5D2 /* Vehicle.cpp */; };
 		D65851D5EDA040928C0BDE31 /* TrafficObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9B59EF880AC44C5BC2D241B /* TrafficObject.cpp */; };
+		E2B7444E2420204F00DDE709 /* TrafficSimulator-Final.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B7444D2420204800DDE709 /* TrafficSimulator-Final.cpp */; };
 		E9BB41CA587B41DD86007567 /* TrafficLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EDCECFD8ACF44318963BBEC /* TrafficLight.cpp */; };
 		F6765281B0A94E40957D8DC7 /* Street.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A671D91D7A24EA5BA7399D6 /* Street.cpp */; };
 /* End PBXBuildFile section */
@@ -70,7 +70,6 @@
 /* Begin PBXFileReference section */
 		48A779F9A0A54453919FE5D2 /* Vehicle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vehicle.cpp; path = src/Vehicle.cpp; sourceTree = SOURCE_ROOT; };
 		51043D5041624E869CFB098A /* Intersection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Intersection.cpp; path = src/Intersection.cpp; sourceTree = SOURCE_ROOT; };
-		6B85A4A8099C48EE85BA4D3D /* TrafficSimulator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TrafficSimulator.cpp; path = src/TrafficSimulator.cpp; sourceTree = SOURCE_ROOT; };
 		6B931C5784AA4AB8B690D841 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		7EDCECFD8ACF44318963BBEC /* TrafficLight.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TrafficLight.cpp; path = src/TrafficLight.cpp; sourceTree = SOURCE_ROOT; };
 		8A671D91D7A24EA5BA7399D6 /* Street.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Street.cpp; path = src/Street.cpp; sourceTree = SOURCE_ROOT; };
@@ -96,6 +95,7 @@
 		E2B7444A2415471D00DDE709 /* Graphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Graphics.h; path = src/Graphics.h; sourceTree = "<group>"; };
 		E2B7444B2415471D00DDE709 /* TrafficLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TrafficLight.h; path = src/TrafficLight.h; sourceTree = "<group>"; };
 		E2B7444C2415471D00DDE709 /* Intersection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Intersection.h; path = src/Intersection.h; sourceTree = "<group>"; };
+		E2B7444D2420204800DDE709 /* TrafficSimulator-Final.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "TrafficSimulator-Final.cpp"; path = "src/TrafficSimulator-Final.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -145,12 +145,12 @@
 		D4E72AE3E781479689DB3FDB /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2B7444D2420204800DDE709 /* TrafficSimulator-Final.cpp */,
 				CF53CC4175874F6DABBA946B /* Graphics.cpp */,
 				51043D5041624E869CFB098A /* Intersection.cpp */,
 				8A671D91D7A24EA5BA7399D6 /* Street.cpp */,
 				7EDCECFD8ACF44318963BBEC /* TrafficLight.cpp */,
 				B9B59EF880AC44C5BC2D241B /* TrafficObject.cpp */,
-				6B85A4A8099C48EE85BA4D3D /* TrafficSimulator.cpp */,
 				48A779F9A0A54453919FE5D2 /* Vehicle.cpp */,
 			);
 			name = "Source Files";
@@ -267,11 +267,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0651E008687F4DA78E60EB1A /* Graphics.cpp in Sources */,
+				E2B7444E2420204F00DDE709 /* TrafficSimulator-Final.cpp in Sources */,
 				1C53BD2D569B46CEADA0DC7C /* Intersection.cpp in Sources */,
 				F6765281B0A94E40957D8DC7 /* Street.cpp in Sources */,
 				E9BB41CA587B41DD86007567 /* TrafficLight.cpp in Sources */,
 				D65851D5EDA040928C0BDE31 /* TrafficObject.cpp in Sources */,
-				5C8B60E44EEE4E57A25E9334 /* TrafficSimulator.cpp in Sources */,
 				D5C3F3CF7E734C5F88160B89 /* Vehicle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
